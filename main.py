@@ -22,6 +22,9 @@ def main():
     # Ensure missing "Discount" values are treated as 0.0.
     sales_data_df["Discount"] = sales_data_df["Discount"].fillna(0.0)
 
+    # Clean the "Region" column to have full region names.
+    sales_data_df["Region"] = sales_data_df["Region"].replace({"W": "West", "E": "East", "N": "North", "S": "South"})
+
     # Print the first 5 rows.
     print(sales_data_df.head())
 
