@@ -25,6 +25,9 @@ def main():
     # Clean the "Region" column to have full region names.
     sales_data_df["Region"] = sales_data_df["Region"].replace({"W": "West", "E": "East", "N": "North", "S": "South"})
 
+    # Make all of the Category column proper case.
+    sales_data_df["Category"] = sales_data_df["Category"].str.title()
+
     # Print the first 5 rows.
     print(sales_data_df.head())
 
