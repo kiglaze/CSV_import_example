@@ -1,0 +1,13 @@
+OrderID,Date,CustomerID,Region,Product,Category,Units,UnitPrice,Discount,Total
+1,2025-01-03,CUST001,North,AlphaWidget,Widgets,3,19.99,0.0,59.97
+2,2025-01-07,CUST002,South,BetaGadget,Gadgets,1,299.99,0.1,299.89
+3,2025-01-10,CUST003,East,DeltaTool,Tools,5,9.5,0.05,47.25
+4,2025-02-02,CUST004,West,GammaThing,Widgets,2,49.5,0.0,99.0
+5,2025-02-15,CUST005,North,AlphaWidget,Widgets,0,19.99,0.0,0.0
+6,2025-03-01,CUST006,South,EpsilonGizmo,Gadgets,10,15.0,0.2,148.0
+7,2025-03-05,CUST007,East,BetaGadget,Gadgets,1,299.99,0.5,299.49
+8,2025-03-12,CUST008,West,DeltaTool,Tools,3,9.5,0.0,28.5
+9,2025-03-15,CUST009,North,ZetaAccessory,Accessories,4,4.99,0.0,19.96
+10,2025-04-01,CUST010,South,OmegaPack,Accessories,2,24.95,0.15,49.6
+11,2025-04-10,CUST011,East,AlphaWidget,Widgets,1,19.99,0.05,19.94
+12,2025-04-15,CUST012,West,BetaGadget,Gadgets,2,299.99,0.0,599.98

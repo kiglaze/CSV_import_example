@@ -28,6 +28,14 @@ def main():
     # Make all of the Category column proper case.
     sales_data_df["Category"] = sales_data_df["Category"].str.title()
 
+    # Calculate Total for each row.
+    sales_data_df["Total"] = sales_data_df["Units"] * sales_data_df["UnitPrice"] - (sales_data_df["Units"] * sales_data_df["Discount"])
+    # Round Total to 2 decimal places.
+    sales_data_df["Total"] = sales_data_df["Total"].round(2)
+
+    # Output cleaned data to a new CSV file.
+    sales_data_df.to_csv("./data/cleaned_sample_sales.csv", index=False)
+
     # Print the first 5 rows.
     print(sales_data_df.head())
 
